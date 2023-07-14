@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable,  EMPTY, throwError, timer } from 'rxjs';
 
-import { IUser } from '../users/user.model';
+import { IUser } from './user.model';
 
 
 @Injectable()
