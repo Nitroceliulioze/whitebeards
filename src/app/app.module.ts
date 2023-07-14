@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 
 import { CoreModule } from './core/core.module';
 import { CatalogModule } from './catalog/catalog.module';
-import { UsersModule } from './users/users.module';
+
 
 
 @NgModule({
@@ -17,7 +17,6 @@ import { UsersModule } from './users/users.module';
   imports: [
     CoreModule,
     CatalogModule,
-    UsersModule,
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,

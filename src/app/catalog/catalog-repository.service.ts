@@ -4,7 +4,9 @@ import { Observable, Subject } from 'rxjs';
 import { IClass, ICourse } from '../catalog/class.model';
 import { UserRepositoryService } from '../users/user-repository.service';
 
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class CatalogRepositoryService {
 
   constructor(private userRepository: UserRepositoryService) { }
